@@ -1,0 +1,32 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Jcam - custom camera</title>
+    <link rel="stylesheet" / href="styles.css">
+  </head>
+  <body>
+    <!-- <h1>Olá mundo!</h1>
+    Estamos usando Node.js <span id="node-version"></span>, Chromium
+    <span id="chrome-version"></span>, e Electron
+    <span id="electron-version"></span>.
+    <button id="start-camera">Start Camera</button> -->
+    <div id="div-video">
+      <video id="video" autoplay muted playsinline></video>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <!-- <script src="./renderer.js"></script> -->
+  </body>
+</html>

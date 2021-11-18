@@ -1,0 +1,19 @@
+div#div-video {
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  width: 230px;
+  height: 230px;
+  background: black;
+  overflow: hidden;
+  border: 8px solid #74bb49;
+  justify-content: center;
+}
+
+video {
+  height: 230px;
+  -webkit-app-region: drag;
+}
+
+body {
+}
